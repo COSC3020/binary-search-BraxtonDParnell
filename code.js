@@ -3,9 +3,9 @@ function binarySearch(list, element) {
 //returns -1 if the element searched for is not present.
 
 //sets the pivot equal to the middle point of the list, rounded down
-left = 0;
-right = list.length - 1;
-middle = (left + right) /2 | 0;
+var left = 0;
+var right = list.length - 1;
+var middle = (left + right) /2 | 0;
 
 while (left < right) { 
 //iterates through the list until the search parameters are size one
